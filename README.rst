@@ -1,6 +1,12 @@
 Media Delivery Software Stack
 =============================
 
+.. raw:: html
+
+  <a href="https://github.com/dvrogozh/media-delivery/actions">
+      <img src="https://github.com/dvrogozh/media-delivery/workflows/CI/badge.svg" alt="no message"/>
+  </a>
+
 .. contents::
 
 Overview

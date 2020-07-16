@@ -12,11 +12,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Building CDN demo
-      run: docker build --build-arg SAMPLE=cdn --no-cache --force-rm -f Dockerfile.ubuntu -t intel-media-delivery-cdn .
+      run: docker build --build-arg SAMPLE=cdn --no-cache --force-rm -f Dockerfile.ubuntu intel-media-delivery-cdn .
 
   build-edge:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Building Edge demo
-      run: docker build --build-arg SAMPLE=edge --no-cache --force-rm -f Dockerfile.ubuntu -t intel-media-delivery-edge .
+      run: docker build --build-arg SAMPLE=edge --no-cache --force-rm -f Dockerfile.ubuntu intel-media-delivery-edge .
